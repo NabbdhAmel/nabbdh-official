@@ -3,5 +3,22 @@ body {
   margin: 0;
   background-color: black;
   color: white;
-  font-family: sans-serif;
+  font-family: 'Cairo', sans-serif;
+}
+a {
+  color: #00d1b2;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+nav {
+  background: #111;
+  padding: 1rem;
+  text-align: center;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+section {
+  padding: 2rem;
+  text-align: center;
 }
